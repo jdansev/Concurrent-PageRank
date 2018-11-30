@@ -301,22 +301,8 @@ void pagerank(node* list, size_t npages, size_t nedges, size_t nthreads, double 
 
 }
 
-/*
-######################################
-### DO NOT MODIFY BELOW THIS POINT ###
-######################################
-*/
-
 int main(int argc, char** argv) {
-
-	/*
-	######################################################
-	### DO NOT MODIFY THE MAIN FUNCTION OR HEADER FILE ###
-	######################################################
-	*/
-
 	config conf;
-
 	init(&conf, argc, argv);
 
 	node* list = conf.list;
@@ -326,8 +312,6 @@ int main(int argc, char** argv) {
 	double dampener = conf.dampener;
 
 	pagerank(list, npages, nedges, nthreads, dampener);
-
 	release(list);
-
 	return 0;
 }
