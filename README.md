@@ -1,2 +1,3 @@
 # PageRank
-Multi-threaded implementation of the PageRank algorithm in C
+A simple implementation of Google's search algorithm in C.
+algorithm: https://en.wikipedia.org/wiki/PageRank
